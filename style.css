@@ -1,0 +1,32 @@
+.header, footer {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-color: rgba(0, 100, 78, 0.945);
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+}
+
+header {
+    position: fixed;
+    border-bottom: 10px solid #ddaf94
+}
+.font-sizing {
+    font-size: larger;
+}
+
+.center-text {
+
+}
+body {
+    text-align: center;
+    position: relative;
+}
+
+.inline {
+    display:inline
+}
+
+a { 
+    color: white;
+    text-decoration: none;
+}
