@@ -53,7 +53,7 @@ section div {
     border-radius: 10px;
     width: 500px;
     height: 100px;
-    margin-left: 21%;
+    display: inline-block
 }
 /* center the text in the box */
 section ul {
