@@ -6,41 +6,40 @@
     <title>My Landing Page</title>
 </head>
 
+<!-- This is where content starts  -->
+
 <body>
-    <header class="header">
-        <nav class="text-right">
-        <ul class="font-sizing">
-            <li class="inline"> <a href="https://github.com/">GitHub</a></li>
-            <li class="inline"> <a href="Portfolio.com">Portfolio</a></li>
-            <li class="inline"> <a href="Contact me">Contact</a></li>
-        </ul>
+    <header>
+        <!-- =====Nav bar here===== -->
+        <nav class="navbar">
+            <ul>
+                <!-- make link open in new tab  -->
+               <li><a href="https://github.com/" target="blank">GitHub</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
     </header>
 
     <main class="center-text">
         <h1> My New Website</h1>
         <img src="https://uci-mini-1.netlify.app/assets/images/image-1.png" alt="Graphic with Coming Soon text">
-        <div class="boxed">
-            Coming soon
-        </div>
 
-        <p>I have never been more confused, but it's ok. Google is helping out a lot.</p>
-
+        <p class="space-around">I have never been more confused, but it's ok. Google is helping out a lot.</p>
+<!-- ======Start the contact me box here====== -->
+        <section class="boxed-text">
+            <h2>Contact Me</h2>
+            <div>
+                <!-- make sure you can type in here  -->
+                <ul>
+                    <li>Name:    <input type= "text" size="50"></li>
+                    <li>Email:   <input type= "text" size="50"></li>
+                 </ul>
+            <button>SEND</button>
+            </div>
+        </section>
     </main>
 
-    <section class="center">
-        <h2>Contact Me</h2>
-
-        <div class="boxed-contact"></div>
-        <ul class="type-in">
-            <li>Name: <input type= "text" size="50"></li>
-            <li>Email: <input type= "text" size="50"></li>
-        </ul>
-        </div>
-
-        <button>SEND</button>
-
-    </section>
 
     <footer>
         <p>© 2022 My New Website Productions</p>
